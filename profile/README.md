@@ -1,4 +1,4 @@
-# Creatively: Learn Skills For Free
+# Creativvely: Learn Tech Skills For Free
 
 ![Imagen of a lightbulb with gears and code symbols representing creativity and skills](https://lh3.googleusercontent.com/fife/ALs6j_EMf5tMr4jq1RXamzXxbJl-TE3yARLjD22IgUD1YfKyB3BGB_dnemsrOIr2ufKyAk4IpoFUHf6oiYuEIOoaXbzlQGtsrwgVIwmjvIUYQD8H5-NvaCEMYjf0r0FbCT1uQ2iZ0Ub2sDGn7seGYRGIo2g_ZIowmpLYuOw6BOrgz-_j0VezeQsjBUV4C78BM6cZdjhnnOhU6fT90ljtaFjZQH5sVklHfzfUMvztGuCwS_tBaH4FPLa8yJuRCwWSSg-PYQp7EDIS-hD1y41-euttI_Lqo7hjdx90ZSBZ9vM_MKuhgTLx2dx2gZjNjEgx_ehD9iVuVhs5mnWOXAz8esk3OMZH8VcGSW_8JVHRagFAtTnI8lREEnAzo6-UpzwAbRDjSp9ev2xj3uoiZlQaqsondZuYJYei_K6AlCl6iqAo3RCFi-0eMpTftqjOT5zgwLJSXefftjKwmJLWUKgdVEiu2s_ylsy6tx62Gmf_5s2kRx5lvqHFopgY9z23zQoYVTLCxPMwNTNq0QQGolaXMRNwTfgKL0cxHG01aJxGb4XtvPagoXpWuCxs07x_AfwkRBvDH4Hh6l10SPstvrX4Kn4nd6siosfDtq1sM89J3lejFeQG0Lmm2jTI0SMSKdmYJccwUcGXs-rFFGTxgrqb2NJ3y1NjuDCwWsg57aP1yzXClreNSNtfMm_-KyVSBSl-5MirkqI-mqoxbf4JyKtsVlknrvAzR_pXMlc4gVtcZ102JZ_wMbjaLxx0p-y5ASYUVaMBkDJtzPcziKe3HMvGvbiJiVZW3sBHQFmRuzLUJIQjoWmCkcYMqt_UvHKz6SD3PohE-cr3GZFJLj4sr3plGdsKtfHA7ritNkry1YDjcgkYoV9AmEMzY6fM0rybxbiA1hfAZh3w-MAziYouQhLUOFk6MppuD7FcC0ojoI3WwKIYccqguIPYanDNliCrvBxqFA2AXdOb0ycdKwRz5JX6-GabznCyK_9c4uUPUBRX9UcaQnZzzcas7zQ_iQ_pXijqnIsvaDnQQ-yy4_iHc7bpSkg0J6LsTCM1GjFZFWB7pNi95eAQT4OyOFwgMVSCdadxEVobnNOk5shwccfZFONHy3BUKzFv3pXocC0z3sSs8DyDSFChr58H7Rkb630wvnT-rmh-HSyEcQCNhH7LxAummJyUYy7MengBhK3dYIg22HjLl75pYuB5fhsb-rbbBkcaTr-xsm6F7OAlr0FUVi3r-0DJu-1a1Ij_LwaloxfCdyQqpxtEjtKPJtE-UC6c_nDHODZhLGz_Sufr2bkwnEpggHt1eM3gO0yGNL5z0msU4BmGzZhlRfOptNuNYZJddtjArE_JtqwB3plb-QtskA8RNfkaTdECXxcrZ4jEPPx9biqyCRRXsL51p_0cFyKe8vbElbMEb5Zg03YAcwMctODpa3Us-fzHRfJfz6RIAoOJ-ibcGZBuO88u9Qw_hZnzQcnJ_kmMKZuAHTFTgRAUzt8U1WwqaQ_dlpsvTMDFYacAXgl251YA1C8jkpTTQXNfNAxpfQZ4v5VbAH9m3o2DR-i__r3_rR8wSEgAoPbX9uVRD_dBQWk=s512)
 
@@ -28,7 +28,7 @@ The numbers speak for themselves. With a comprehensive library boasting over **1
         - **Learn AI For The Everyday Use**
         - **Learn MS Office and Windows Foundation**
 * Our graduates leverage industry-recognized certifications and practical experience to confidently land their dream jobs. We partner with other organizations such as:
-    - **Creatively Mentor & Jobs**
+    - **Creativvely Mentor & Jobs**
     - **Google**
     - **Loubby AI**
     - **Synco**
@@ -51,10 +51,6 @@ Our codebase might be private, but there are still plenty of ways you can be a p
 * **Help Us Refine:**  Report issues, suggest improvements, and help us make our content even better!  
 * **Spread the Knowledge:**  Share Creatively with your network and empower others to unlock their potential through free learning!   
 
-#### Join the Creatively Movement!
+#### Join Creatively Waitlist!
 
-Explore our initiatives and inspiring success stories on our [Website Link (placeholder)].
-
-#### Badges
-
-Consider adding badges showcasing the number of courses offered, graduates, or active users.
+Explore our initiatives and inspiring success stories on our [https://bit.ly/creativvelylearnfrontend].
