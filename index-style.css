@@ -1,0 +1,225 @@
+/* reset styles */
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+
+    /* general styles */
+    font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --marginal-padding: 6.25rem;
+    --border-color: rgba(211, 211, 211, 0.233);
+    --brand-gradient: linear-gradient( -47deg, #FF914D 0%, #EF6F76 50%, #EF6F76 100% );
+}
+
+
+/* heading styles */
+h1, h2, h3 {
+    font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* styling the macro layout */
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   height: 100vh;
+}
+
+
+/* styling the navbar and it's components */
+nav {
+    padding: 15px var(--marginal-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid var(--border-color);
+}
+.hamburger-icon {
+    display: none;
+    background-color: transparent;
+}
+.nav-logo {
+    display: block;
+    height: 50px;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 0px 20px;
+}
+
+
+
+/* styling the main section */
+main {
+    flex-grow: 1;
+    display: flex;
+    padding: 0px var(--marginal-padding);
+    justify-content: space-between;
+}
+
+/* styling the left section */
+.left-section {
+    width: 56%;
+    padding-block: 40px;
+    padding-inline: 0px 20px;
+    border-right: thin solid var(--border-color);
+}
+.headline {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.headline-emphasis {
+    background-image: var(--brand-gradient);
+    padding: 0px 20px;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+}
+.mobile-cta {
+    display: none;
+    background-image: var(--brand-gradient);
+    padding: 11px 18px;
+    margin: 0px auto 50px;
+    width: fit-content;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.benefit-list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+.benefit {
+    display: flex;
+    gap: 0px 20px;
+    align-items: center;
+}
+.benefit-icon {
+    font-size: 20px;
+}
+b {
+    text-decoration: underline 2px solid #FF914D;
+    text-underline-offset: 4px;
+}
+.benefit-icon > path {
+    color: #FF914D;
+}
+
+.social-links-ctn {
+    margin-top: 30px;
+}
+.social-links {
+    list-style-type: none;
+    display: flex;
+    gap: 0px 10px;
+}
+h4 {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    color: lightgray;
+}
+.link-icon {
+    font-size: 30px;
+}
+
+/* styling the right section */
+.right-section {
+    width: 43%;
+    padding: 70px 70px;
+}
+.waitlist-headline {
+    text-transform: capitalize;
+    font-size: 1.85rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.waitlist-subheadline {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.waitlist-emphasis {
+    background-image: var(--brand-gradient);
+    padding: 0px 8px;
+    display: inline-block;
+    width: auto;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+@media screen and ( max-width: 1200px ) {
+    :root {
+        --marginal-padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 20px 0px;
+    }
+    .hamburger-icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px 0px;
+        width: 100%;
+        display: none;
+    }
+    .display-visible {
+        display: flex;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        padding-inline: 0px;
+        border: none;
+    }
+    .left-section {
+        padding-block: 40px 20px;
+    }
+    .right-section {
+        padding: 40px 0px;
+    }
+    .headline {
+        text-align: center;
+    }
+    .mobile-cta {
+        display: block;
+    }
+    .benefit-list {
+        width: 100%;
+    }
+    .social-links-ctn {
+        width: fit-content;
+        margin: 30px auto 0px;
+    }
+    .social-links {
+        width: fit-content;
+        margin: auto;
+    }
+    .waitlist-subheadline {
+        margin-bottom: 0px;
+    }
+}

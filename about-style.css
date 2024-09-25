@@ -1,0 +1,129 @@
+/* reset styles */
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+    /* general styles */
+    font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --marginal-padding: 6.25rem;
+    --border-color: rgba(211, 211, 211, 0.233);
+    --brand-gradient: linear-gradient( -47deg, #FF914D 0%, #EF6F76 50%, #EF6F76 100% );
+}
+
+
+/* heading styles */
+h1, h2, h3 {
+    font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: var(--brand-gradient);
+    background-clip: text;
+    color: transparent; */
+    color: #FF914D;
+    margin: 30px 0px;
+}
+
+
+/* styling the macro layout */
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   height: 100vh;
+}
+
+
+/* styling the navbar and it's components */
+nav {
+    padding: 15px var(--marginal-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid var(--border-color);
+}
+.hamburger-icon {
+    display: none;
+    background-color: transparent;
+}
+.nav-logo {
+    display: block;
+    height: 50px;
+}
+.active-nav-link {
+    color: #FF914D;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 0px 20px;
+}
+
+
+main {
+    max-width: 66ch;
+    margin: auto;
+    padding: 50px 0px;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+b {
+    text-decoration: underline 2px solid #FF914D;
+    text-underline-offset: 4px;
+}
+p, ul, li {
+    line-height: 1.5;
+}
+ul {
+    list-style-position: inside;
+}
+
+
+
+@media screen and ( max-width: 1200px ) {
+    :root {
+        --marginal-padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 20px 0px;
+    }
+    .hamburger-icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px 0px;
+        width: 100%;
+        display: none;
+    }
+    .display-visible {
+        display: flex;
+    }
+
+    main {
+        max-width: 66ch;
+        margin: auto;
+        padding: 50px 20px;
+    }
+}
