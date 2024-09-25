@@ -53,4 +53,4 @@ Our codebase might be private, but there are still plenty of ways you can be a p
 
 #### Join Creatively Waitlist!
 
-Explore our initiatives and inspiring success stories on our [https://bit.ly/creativvelylearnfrontend].
+Join our waitlist and explore the goals and targets we aim to provide. [[Join Waitlist](https://bit.ly/CreativvelyWaitlist)].
