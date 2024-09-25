@@ -46,7 +46,7 @@ We go beyond simply offering courses. Creatively provides a holistic learning ec
 
 ## Join the Movement: How Can You Contribute??
 
-Our codebase might be private, but there are still plenty of ways you can be a part of the Creatively success story:
+Apart from exploring and contributing to our Codebase, there are still plenty of ways you can be a part of the Creatively success story:
 
 * **Help Us Refine:**  Report issues, suggest improvements, and help us make our content even better!  
 * **Spread the Knowledge:**  Share Creatively with your network and empower others to unlock their potential through free learning!   
